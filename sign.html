@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Screen</title>
+  <style>
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+
+    .container input[type="email"],
+    .container input[type="text"],
+    .container input[type="number"],
+    .container input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+
+    .container input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 20px;
+      border: none;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+
+    .container input[type="submit"]:hover {
+      background-color: #45a049;
+    
+    }
+    .home{
+        color: black;
+        background-color: #45a049;
+        font-size: larger;    
+    }
+    .home:hover{
+      background-color: red;
+      color: black;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="home">HOME</a>
+    <h2>Login</h2>
+    <form>
+      <input type="email" id="email" name="email" placeholder="Email Address / Phone number" required>
+      <br>
+      <input type="password" id="password" name="password" placeholder="password" required>
+      <br>
+      <input type="submit" value="Login">
+    </form>
+    <h1>Register</h1>
+    <form>
+        <input type="text" id="SURNAME" name="SURNAME" placeholder="SURNAME" required>
+        <br>
+        <input type="text" id="FIRST NAME" name="FIRST NAME" placeholder="FIRST NAME" required>
+        <br>
+        <input type="text" id="SECOND NAME" name="SECOND NAME" placeholder="SECOND NAME" required>
+        <br>
+        <input type="email" id="email" name="email" placeholder="Email Address" required>
+        <br>
+        <input type="number" id="number" name="number" placeholder="PHONE NUMBER" required>
+        <br>
+        <input type="password" id="password" name="password" placeholder="PASSWORD" required>
+        <br>
+        <input type="password" id="password" name="password" placeholder="COMFIRM PASSWORD" required>
+        <br>
+        <input type="submit" value="CREATE">
+    </form>
+    
+  </div>
+
+</body>
+</html>
